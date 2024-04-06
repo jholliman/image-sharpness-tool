@@ -8,6 +8,8 @@ class SharpnessMap:
         self.image_path = image_path
         self.window_size = window_size
         self.step_size = step_size
+        
+        #we will call the create sharpness map function on initialization
         self.create_sharpness_map()
 
     def create_sharpness_map(self):
